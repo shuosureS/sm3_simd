@@ -141,7 +141,7 @@ int main(int argc, char* argv[])
 
 首先是验证sm3是否正确
 
-![image text](attachment:09f2f52cc514f540633c2cdd202b4a55)
+![image text](https://github.com/shuosureS/sm3_simd/blob/master/09f2f52cc514f540633c2cdd202b4a55.png)
 
 然后是时间的对比，优化后时间快了十多倍，还是比较明显的。
 
@@ -150,6 +150,6 @@ int main(int argc, char* argv[])
 |优化前|2953403ms|
 |优化后|216334ms|
 
-![image text](attachment:fa6ae8c9f20ad07cd848f2389a43f720)
+![image text](https://github.com/shuosureS/sm3_simd/blob/master/fa6ae8c9f20ad07cd848f2389a43f720.png)
 
-![image text](attachment:3b5da8ab7a77dcebaf3ec7efd88fcdad)
+![image text](https://github.com/shuosureS/sm3_simd/blob/master/3b5da8ab7a77dcebaf3ec7efd88fcdad.png)
